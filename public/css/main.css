@@ -1917,9 +1917,9 @@ body:after {
   width: 100%;
   height: 100%;
   position: fixed;
-  background-image: -moz-linear-gradient(0deg, #e66587 0%, #f09458 100%);
-  background-image: -webkit-linear-gradient(0deg, #e66587 0%, #f09458 100%);
-  background-image: -ms-linear-gradient(0deg, #e66587 0%, #f09458 100%);
+  background-image: -moz-linear-gradient(0deg, #388076 0%, #58d2f0 100%);
+  background-image: -webkit-linear-gradient(0deg, #388076 0%, #58d2f0 100%);
+  background-image: -ms-linear-gradient(0deg, #388076 0%, #58d2f0 100%);
   opacity: 0.6;
   z-index: -1;
 }
@@ -1979,7 +1979,7 @@ body:after {
 }
 
 .p1-gradient-color, .single-feature .icon span {
-  background: -webkit-linear-gradient(0deg, #e66587, #f09458);
+  background: -webkit-linear-gradient(0deg, #65e6ca, #f09458);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
@@ -2259,7 +2259,7 @@ body:after {
 }
 
 .active-works-carousel .owl-dots .owl-dot.active {
-  background: #e66587;
+  background: #65ace6;
   box-shadow: 0px 10px 20px 0px rgba(0, 0, 0, 0.2);
 }
 
@@ -2322,6 +2322,61 @@ body:after {
   content: "";
   position: absolute;
 }
+
+.story-area2 {
+  padding: 90px 0;
+  position: relative;
+  position: relative;
+  background-color: #e97478;
+}
+
+.story-area2:after {
+  position: absolute;
+  content: "";
+  top: 0;
+  right: 0;
+  width: 50%;
+  height: 100%;
+  background: url(../img/story-bg2.jpg) no-repeat center center/cover;
+  z-index: 1;
+}
+
+@media (max-width: 991px) {
+  .story-area2:after {
+    display: none;
+  }
+}
+
+.story-area2 .story-box {
+  padding: 60px 90px;
+  background: #fff;
+  border-radius: 3px;
+  position: relative;
+  z-index: 2;
+}
+
+@media (max-width: 991px) {
+  .story-area2 .story-box {
+    padding: 30px 50px;
+    text-align: center;
+  }
+}
+
+@media (max-width: 575px) {
+  .story-area2 .story-box {
+    padding: 30px;
+  }
+}
+
+.story-area2 .story-box h6 {
+  margin-bottom: 15px;
+}
+
+.story-area2:after {
+  content: "";
+  position: absolute;
+}
+
 
 .subscription-area {
   background: #fff;
@@ -2543,4 +2598,25 @@ footer .copy-right-text a {
 
 .switch-wrap p {
   margin: 0;
+}
+.logo {
+  width: 35%;
+}
+.logo-thp {
+  width: 30%;
+}
+.footer-social i {
+font-weight: large;
+}
+.main-menubar {
+  position: fixed;
+  left: 90%;
+}
+.menu-bar {
+  background-color: #f0915ac2;
+  padding: 10px;
+  border-radius: 20px;
+}
+.main-menubar a{
+ font-size: 20px;
 }
