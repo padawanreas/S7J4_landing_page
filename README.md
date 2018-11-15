@@ -1,6 +1,8 @@
 # 🙊 Landing Page 🙊
 
-## [*lien en production*](https://lp-thp-caen.herokuapp.com/)
+## [*lien en production -landing page principale*](https://lp-thp-caen.herokuapp.com/)
+## [*lien en production - landing page n°2 *](https://lp-thp-caen.herokuapp.com/lp2)
+## [*lien en production - landing page n°3 *](https://lp-thp-caen.herokuapp.com/lp3)
 
 ## 💾Présentation de l'application💾
 
