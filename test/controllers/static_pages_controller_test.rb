@@ -2,18 +2,17 @@ require 'test_helper'
 
 class StaticPagesControllerTest < ActionDispatch::IntegrationTest
   test "should get index" do
-    get static_pages_index_url
+    get '/'
     assert_response :success
   end
 
   test "should get lp2" do
-    get static_pages_lp2_url
+    get '/lp2'
     assert_response :success
   end
 
   test "should get lp3" do
-    get static_pages_lp3_url
+    get '/lp3'
     assert_response :success
   end
-
 end
